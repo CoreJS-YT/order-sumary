@@ -7,23 +7,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./css/attrinute.css">
   <title>Frontend Mentor | Order summary card</title>
 </head>
 <body>
-  
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  
+  <div class="content">
+    <div class="content__preview">
+      <img src="./images/illustration-hero.svg" alt="Img Preview" class="content__preview__img">
+    </div>
+    <div class="content__descs">
+      <h2 class="content__descs__desctitle">Order Summary</h2>
+      <p class="content__descs__desc">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      <div class="content__descs__desc-info">
+        <img src="./images/icon-music.svg" alt="Icon Music" class="content__descs__desc-info__icon-music">
+        <p class="content__descs__desc-info__plan-info">Annual Plan <span>$59.99/year</span></p>
+        <a href="/" class="content__descs__desc-info__ch">Change</a>
+      </div>
+      <button class="content__descs__cp">Proceed to Payment</button>
+      <a href="/" class="content__descs__pp">Cancel Order</a>
+    </div>
+  </div>
   <div class="attribution">Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a href="https://corejs-yt.gtihub.io">CoreJS</a>.</div>
 </body>
 </html>
